@@ -107,6 +107,9 @@ static const ISP_IQParamTypeDef ISP_IQParamCacheInit_IMX335 = {
         .enablePipe1 = 1,
         .enablePipe2 = 1,
     },
+    .sensorDelay = {
+        .delay = 3,
+    },
 };
 
 /* DCMIPP ISP configuration for VD66GY sensor */
@@ -194,6 +197,9 @@ static const ISP_IQParamTypeDef ISP_IQParamCacheInit_VD66GY = {
     .gamma = {
         .enablePipe1 = 1,
         .enablePipe2 = 1,
+    },
+    .sensorDelay = {
+        .delay = 4,
     },
 };
 
