@@ -225,7 +225,6 @@ int main(void)
     .DumpFrame = Camera_DumpFrame,
     .SetSensorTestPattern = SetSensorTestPattern,
   };
-  ISP_StatAreaTypeDef isp_stat_area = {0};
   /* Get the sensor name connected:
    * - IMX335 config @ ISP_IQParamCacheInit[0]
    * - VD66GY config @ ISP_IQParamCacheInit[1]
@@ -239,7 +238,7 @@ int main(void)
   {
     sensor_id = 1;
   }
-  ret = ISP_Init(&hIsp, phDcmipp, camera_instance, &appliHelpers, &isp_stat_area, ISP_IQParamCacheInit[sensor_id]);
+  ret = ISP_Init(&hIsp, phDcmipp, camera_instance, &appliHelpers, ISP_IQParamCacheInit[sensor_id]);
   if (ret != ISP_OK)
   {
     printf("ERROR: Can't init ISP (error %d)\r\n", ret);
