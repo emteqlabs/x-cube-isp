@@ -46,6 +46,7 @@ void CMW_CAMERA_PIPE_VsyncEventCallback(DCMIPP_HandleTypeDef *hdcmipp, uint32_t 
     /* Call the IPS statistics handler */
     ISP_IncMainFrameId(&hIsp);
     ISP_GatherStatistics(&hIsp);
+    ISP_OutputMeta(&hIsp);
   }
   /* Additional applicative processing can be implemented from here */
 }
