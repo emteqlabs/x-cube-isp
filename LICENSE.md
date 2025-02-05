@@ -1,0 +1,17 @@
+|Component                     |Copyright                              |License
+|---------                     |----------                             |-------
+| CMSIS                        | ARM Limited                           | [Apache-2.0](https://opensource.org/licenses/Apache-2.0)
+| STM32N6xx CMSIS Device       | ARM Limited, STMicroelectronics       | [Apache-2.0](https://opensource.org/licenses/Apache-2.0)
+| STM32N6xx HAL/LL Drivers     | STMicroelectronics                    | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
+| STM32N6570-DK BSP Drivers    | STMicroelectronics                    | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
+| BSP Component aps256xx       | STMicroelectronics                    | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
+| BSP Component Common         | STMicroelectronics                    | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
+| BSP Component mx66uw1g45g    | STMicroelectronics                    | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
+| BSP Component rk050hr18      | STMicroelectronics                    | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
+| Camera driver IMX335         | STMicroelectronics                    | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
+| Camera driver VD55G1         | STMicroelectronics                    | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
+| Camera driver VD6G           | STMicroelectronics                    | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
+| STM32 Camera Middleware      | STMicroelectronics                    | [SLA0044](https://www.st.com/SLA0044)
+| STM32 USB Device Library     | STMicroelectronics                    | [SLA0044](https://www.st.com/SLA0044)
+| STM32 ISP Library            | STMicroelectronics, LACROIX - Impulse | [SLA0044](https://www.st.com/SLA0044)
+| ISP IQTune application       | STMicroelectronics                    | [SLA0044](https://www.st.com/SLA0044)
