@@ -1,6 +1,6 @@
 # X-CUBE-ISP
 
-![latest tag](https://img.shields.io/github/v/tag/STMicroelectronics/stm32-mw-isp.svg?color=brightgreen)
+![latest tag](https://img.shields.io/github/v/tag/STMicroelectronics/x-cube-isp.svg)
 
 
 The X-CUBE-ISP package provides the functionnality to control and tune the
