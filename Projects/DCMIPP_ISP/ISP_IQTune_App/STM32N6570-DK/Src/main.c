@@ -653,13 +653,6 @@ static void Display_Logo(void)
   * @param  StatArea           Coordinates of the stat area
   * @retval none
   */
-
-/* The LTDC/Display is only displaying 796x476 (seems a bug on LTDC/Display side)
- * Until the LTDC/Display issue is fixed we need to take into account that the display
- * area is only 796x476 instead of 800x480 when displaying the statistic area.
- */
-#define FIX_DISPLAY_ISSUE 4
-
 void Draw_ARGB8888_StatArea(uint32_t FramebufferAddress, Rectangle_TypeDef DisplayArea, Rectangle_TypeDef StatArea)
 {
   uint32_t bpp = BPP_ARGB8888;
@@ -696,14 +689,7 @@ void Draw_ARGB8888_StatArea(uint32_t FramebufferAddress, Rectangle_TypeDef Displ
       ((uint32_t *)buf)[0] = color;
       if (StatArea.XSize > 0)
       {
-        if (StatArea.XSize > (PreviewArea.XSize - FIX_DISPLAY_ISSUE))
-        {
-          ((uint32_t *)buf)[StatArea.XSize - 1 - FIX_DISPLAY_ISSUE] = color;
-        }
-        else
-        {
-          ((uint32_t *)buf)[StatArea.XSize - 1] = color;
-        }
+        ((uint32_t *)buf)[StatArea.XSize - 1] = color;
       }
     }
     buf += DisplayArea.XSize * bpp;
@@ -711,10 +697,6 @@ void Draw_ARGB8888_StatArea(uint32_t FramebufferAddress, Rectangle_TypeDef Displ
 
   /* Draw bottom horizontal line */
   buf -= DisplayArea.XSize * bpp;
-  if (StatArea.YSize > (PreviewArea.YSize - FIX_DISPLAY_ISSUE))
-  {
-    buf -= DisplayArea.XSize * bpp * FIX_DISPLAY_ISSUE;
-  }
   for (unsigned int i = 0; i < StatArea.XSize; i++)
     if ((i / 5) % 2)
       ((uint32_t *)buf)[i] = color;
