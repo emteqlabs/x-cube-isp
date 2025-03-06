@@ -1,4 +1,4 @@
-# Release Notes for X-CUBE-ISP
+# Release Notes for X-CUBE-ISP v1.1.0
 Copyright &copy; 2025 STMicroelectronics
 
 ## Purpose
@@ -56,5 +56,5 @@ the board.
 | BSP Component rk050hr18      | v1.0.1
 | STM32 Camera Middleware      | v1.4.1
 | STM32 USB Device Library     | v2.11.3
-| STM32 ISP Library            | v1.0.1
-| ISP IQTune application       | v1.0.0
+| STM32 ISP Library            | v1.1.0
+| ISP IQTune application       | v1.1.0
