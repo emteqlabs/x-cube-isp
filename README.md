@@ -2,7 +2,6 @@
 
 ![latest tag](https://img.shields.io/github/v/tag/STMicroelectronics/x-cube-isp.svg)
 
-
 The X-CUBE-ISP package provides the functionnality to control and tune the
 DCMIPP ISP present in the STM32N6x products.<br>
 It contains:<br>
@@ -20,6 +19,8 @@ To take control of the DCMIPP ISP:<br>
 connect to the target thanks to an USB-C cable on the USB1 (CN18) connector of
 the board.
 - The ISP IQTune App must be loaded and launched on the target.
+
+![STM32N6_connection](STM32N6_connection_IQTune_STLink.png)
 
 [Getting started with X-CUBE-ISP Wiki article](https://wiki.st.com/stm32mcu/wiki/ISP:Getting_started_with_X-CUBE-ISP)
 
