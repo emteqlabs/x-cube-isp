@@ -9,11 +9,11 @@ It contains:<br>
 - An embedded ISP Library middleware (running on the target) hosting 2A
   algorithms (Auto Exposure and Auto White Blance) and mechanisms to control
   the ISP and load sensor tuning file.<br>
-`X-CUBE-ISP/Middlewares/ST/STM32_ISP_Library`
+`x-cube-isp/Middlewares/ST/STM32_ISP_Library`
 -  A tuning application (running on the target) that allows to interact
   with the STM32 ISP IQTune desktop application executed on the host computer
   and connected through usb.<br>
-`X-CUBE-ISP/Projects/DCMIPP_ISP/ISP_IQTune_App`
+`x-cube-isp/Projects/DCMIPP_ISP/ISP_IQTune_App`
 
 To take control of the DCMIPP ISP:<br>
 - The host computer must execute the STM32 ISP IQTune desktop application and
@@ -156,12 +156,6 @@ export DKEL="<STM32CubeProgrammer_N6 Install Folder>/bin/ExternalLoader/MX66UW1G
 
 STM32_Programmer_CLI -c port=SWD mode=HOTPLUG ap=1 -el $DKEL -hardRst -w X-CUBE-ISP/Projects/DCMIPP_ISP/Bin/STM32N6_ISP_IQTune_App-trusted.bin 0x70000000
 ```
-
-## Known Issues and Limitations
-
-- In rare situations, Auto White Balance (AWB) algorithm can flicker between 2 AWB profiles\*
-<br>
-\* Fix is under preparation
 
 ## Documentation
 [MCU ISP wiki article](https://wiki.st.com/stm32mcu/wiki/Category:ISP)
