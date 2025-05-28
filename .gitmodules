@@ -27,7 +27,7 @@
 	url = https://github.com/STMicroelectronics/stm32-mw-isp.git
 [submodule "Middlewares/ST/STM32_Camera_Middleware"]
 	path = Middlewares/ST/STM32_Camera_Middleware
-	url = https://github.com/STMicroelectronics/stm32-mw-camera.git
+	url = https://github.com/emteqlabs/stm32-mw-camera.git
 [submodule "Drivers/BSP/Components/aps256xx"]
 	path = Drivers/BSP/Components/aps256xx
 	url = https://github.com/STMicroelectronics/stm32-aps256.git
