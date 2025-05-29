@@ -60,6 +60,7 @@
 									<listOptionValue builtIn="false" value="../../../../../../Middlewares/ST/STM32_Camera_Middleware/sensors"/>
 									<listOptionValue builtIn="false" value="../../../../../../Middlewares/ST/STM32_Camera_Middleware/sensors/imx335"/>
 									<listOptionValue builtIn="false" value="../../../../../../Middlewares/ST/STM32_Camera_Middleware/sensors/vd6g"/>
+									<listOptionValue builtIn="false" value="../../../../../../Middlewares/ST/STM32_Camera_Middleware/sensors/ov02c"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1945885372" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
@@ -117,6 +118,7 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="release"/>
 		<configuration configurationName="Debug">
 			<resource resourceType="PROJECT" workspacePath="/ISP_IQTune"/>
 		</configuration>

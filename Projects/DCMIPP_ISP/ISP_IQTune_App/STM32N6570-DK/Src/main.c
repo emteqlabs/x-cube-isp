@@ -228,6 +228,7 @@ int main(void)
   /* Get the sensor name connected:
    * - IMX335 config @ ISP_IQParamCacheInit[0]
    * - VD66GY config @ ISP_IQParamCacheInit[1]
+   * - OV02C10 config @ ISP_IQParamCacheInit[2]
    */
   uint8_t sensor_id = 0;
   if (strcmp(Camera_SensorConf.name, "IMX335") == 0)
@@ -237,6 +238,10 @@ int main(void)
   else if (strcmp(Camera_SensorConf.name, "VD66GY") == 0)
   {
     sensor_id = 1;
+  }
+  else if (strcmp(Camera_SensorConf.name, "OV02C10") == 0)
+  {
+    sensor_id = 2;
   }
   ret = ISP_Init(&hIsp, phDcmipp, camera_instance, &appliHelpers, ISP_IQParamCacheInit[sensor_id]);
   if (ret != ISP_OK)
