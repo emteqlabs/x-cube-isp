@@ -281,10 +281,10 @@ static const ISP_IQParamTypeDef ISP_IQParamCacheInit_OV02C = {
         .coeff.LUM_256 = 0,
     },
     .statAreaStatic = {
-        .X0 = 100,
-        .Y0 = 100,
-        .XSize = 1920 - 100,
-        .YSize = 1080 - 100,
+        .X0 = 0,
+        .Y0 = 0,
+        .XSize = 1920,
+        .YSize = 1080,
     },
     .gamma = {
         .enablePipe1 = 1,
