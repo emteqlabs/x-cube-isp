@@ -291,7 +291,7 @@ static const ISP_IQParamTypeDef ISP_IQParamCacheInit_OV02C = {
         .enablePipe2 = 1,
     },
     .sensorDelay = {
-        .delay = 4,
+        .delay = 3,
     },
 };
 
