@@ -45,6 +45,7 @@ extern "C" {
 #define USE_VD66GY_SENSOR
 #define USE_IMX335_SENSOR
 #define USE_OV02C_SENSOR
+#define USE_OV2740_SENSOR
 
 #ifdef __cplusplus
 }

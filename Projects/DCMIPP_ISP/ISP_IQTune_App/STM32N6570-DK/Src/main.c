@@ -243,6 +243,10 @@ int main(void)
   {
     sensor_id = 2;
   }
+  else if (strcmp(Camera_SensorConf.name, "OV2740") == 0)
+  {
+    sensor_id = 3;
+  }
   ret = ISP_Init(&hIsp, phDcmipp, camera_instance, &appliHelpers, ISP_IQParamCacheInit[sensor_id]);
   if (ret != ISP_OK)
   {

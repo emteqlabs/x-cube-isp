@@ -287,6 +287,11 @@
 			<locationURI>PARENT-5-PROJECT_LOC/Middlewares/ST/STM32_Camera_Middleware/sensors/cmw_ov02c.c</locationURI>
 		</link>
 		<link>
+			<name>Middlewares/Camera_Middleware/sensors/cmw_ov2740.c</name>
+			<type>1</type>
+			<locationURI>PARENT-5-PROJECT_LOC/Middlewares/ST/STM32_Camera_Middleware/sensors/cmw_ov2740.c</locationURI>
+		</link>
+		<link>
 			<name>Middlewares/Camera_Middleware/sensors/cmw_vd66gy.c</name>
 			<type>1</type>
 			<locationURI>PARENT-5-PROJECT_LOC/Middlewares/ST/STM32_Camera_Middleware/sensors/cmw_vd66gy.c</locationURI>
@@ -307,9 +312,19 @@
 			<locationURI>PARENT-5-PROJECT_LOC/Middlewares/ST/STM32_Camera_Middleware/sensors/ov02c/ov02c.c</locationURI>
 		</link>
 		<link>
+			<name>Middlewares/Camera_Middleware/sensors/drivers/ov2740.c</name>
+			<type>1</type>
+			<locationURI>PARENT-5-PROJECT_LOC/Middlewares/ST/STM32_Camera_Middleware/sensors/ov2740/ov2740.c</locationURI>
+		</link>
+		<link>
 			<name>Middlewares/Camera_Middleware/sensors/drivers/ov02c_reg.c</name>
 			<type>1</type>
 			<locationURI>PARENT-5-PROJECT_LOC/Middlewares/ST/STM32_Camera_Middleware/sensors/ov02c/ov02c_reg.c</locationURI>
+		</link>
+		<link>
+			<name>Middlewares/Camera_Middleware/sensors/drivers/ov2740_reg.c</name>
+			<type>1</type>
+			<locationURI>PARENT-5-PROJECT_LOC/Middlewares/ST/STM32_Camera_Middleware/sensors/ov2740/ov2740_reg.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/Camera_Middleware/sensors/drivers/vd6g.c</name>
